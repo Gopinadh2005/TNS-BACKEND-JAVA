@@ -17,11 +17,15 @@ public class ScannerDemo {
 		String branch=sc.next();
 		System.out.println("Enter your cgpa : ");
 		double cgpa=sc.nextDouble();
+		System.out.println("Are you interested in higher studies (true/false)? ");
+		boolean higher_study=sc.nextBoolean();
+		
 		System.out.println("=== Entered Details Are ====");
 		System.out.println("Name = "+name);
         System.out.println("Age = "+age);
         System.out.println("Branch = "+branch);
         System.out.println("CGPA = "+cgpa);
+        System.out.println("Interested in higher studies? "+higher_study);
         s.display();
 	}
 
