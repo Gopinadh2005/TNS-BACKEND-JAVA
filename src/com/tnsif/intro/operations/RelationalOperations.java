@@ -1,9 +1,8 @@
-package com.tnsif.intro;
+package com.tnsif.intro.operations;
 
 public class RelationalOperations {
 
 	public static void main(String[] args) {
-		
 		int num1=7;
 		int num2=5;
 		

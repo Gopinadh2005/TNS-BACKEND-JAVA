@@ -1,10 +1,10 @@
-package com.tnsif.intro;
+package com.tnsif.intro.day2hw;
 
-public class EEE {
+public class ECE {
 	String studentName;
 	   int studentId;
 	   public void display() {
-		   System.out.println("=== EEE Department Student Info ===");
+		   System.out.println("=== ECE Department Student Info ===");
 		   System.out.println("Student name is = "+studentName);
 		   System.out.println("Student id is = "+studentId);
 	   }

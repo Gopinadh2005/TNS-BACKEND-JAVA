@@ -1,9 +1,8 @@
-package com.tnsif.intro;
+package com.tnsif.intro.operations;
 
 public class LogicalOperations {
 
 	public static void main(String[] args) {
-		
 		int a=5;
 		int b=2;
 		System.out.println("Logical AND (a>b && b>=1)="+(a>b && b>=4));

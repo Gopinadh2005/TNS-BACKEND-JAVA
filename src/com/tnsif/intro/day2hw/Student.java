@@ -1,4 +1,4 @@
-package com.tnsif.intro;
+package com.tnsif.intro.day2hw;
 
 public class Student {
 
@@ -17,6 +17,7 @@ public class Student {
 		student3.studentName="Sriram";
 		student3.studentId=7;
 		student3.display();
+
 
 	}
 

@@ -1,9 +1,8 @@
-package com.tnsif.intro;
+package com.tnsif.intro.operations;
 
 public class ArithmeticOperations {
 
 	public static void main(String[] args) {
-		
 		int firstNum=8768;
 		int secondNum=256;
 		int sum=firstNum+secondNum;
@@ -16,6 +15,7 @@ public class ArithmeticOperations {
 		System.out.println("Multiplication of "+firstNum+" and "+secondNum+" is= "+mul);
 		System.out.println("Division of "+firstNum+" and "+secondNum+" is= "+div);
 		System.out.println("Remainder of "+firstNum+" and "+secondNum+" is= "+rem);
+
 	}
 
 }
