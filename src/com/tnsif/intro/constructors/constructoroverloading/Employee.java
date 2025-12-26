@@ -3,7 +3,7 @@ package com.tnsif.intro.constructors.constructoroverloading;
 public class Employee {
 	
 	Employee(){
-		System.out.println("=== 0-Parameter Construcor ===");
+		System.out.println("=== 0-Parameter Constructor ===");
 		System.out.println("Ready To Display Employee Information ");
 	}
 	Employee(String empName){
