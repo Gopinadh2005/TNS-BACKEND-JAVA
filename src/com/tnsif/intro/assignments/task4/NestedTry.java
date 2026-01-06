@@ -10,6 +10,13 @@ public class NestedTry {
 				String s=null;
 				try {
 					int[] arr= {1,2,3,4};
+					try {
+						String name="Gopinadh";
+						System.out.println(name.charAt(7));
+						System.out.println(name.charAt(8));
+					}catch(StringIndexOutOfBoundsException e) {
+						System.out.println("The String length is 8.we can't access 9th element.");
+					}
 					System.out.println(arr[3]);
 					System.out.println(arr[4]);
 				}catch(ArrayIndexOutOfBoundsException e) {
