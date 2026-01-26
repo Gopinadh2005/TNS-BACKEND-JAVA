@@ -1,4 +1,4 @@
-package com.tnsif.intro.sreams;
+package com.tnsif.intro.streams;
 
 import java.util.Arrays;
 import java.util.List;
